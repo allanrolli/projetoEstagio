@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+main{
+    overflow: hidden;
+}
+html{
+    height: 100%;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    background-image: url(../img/fundo.png);
+    
+}
+body:before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+    
+}
+/*.container-grid  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    position: relative;
+    clear: both;
+}*/
+    
+.meio-tela{
+    width: 100%;
+    margin: 0px auto;
+    max-width: 700px;
+    font-size: 0px;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 27px;
+	display: block;
+	padding-bottom: .5em;
+    border-bottom: 1px solid #b30000;
+	margin-bottom: .5em;
+    font-weight: bold;
+    
+    
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	
+}
+
+label{
+	color: #000;
+	display: flex;
+	margin-bottom: .2em;
+    font-size: 20px;
+    margin: 5px 5px;
+    text-shadow: white;
+    font-weight: bold;
+        
+}
+a{
+   
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #b30000;    
+}
+
+input[type="checkbox"]{
+    margin: 10px;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #b30000;
+	padding: .7em;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+/*
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}*/
+
+.botao{
+    font-family: arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    display: inline-block;
+    /* margin-left: 10px; */
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: inherit;
+    min-height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+
+}
+.botao-tela1{
+    border-radius: 24px;
+    width: calc(50% - 20px);
+    background:#72C736;
+    color: #333;
+    box-shadow: 0 5px 0  #0c1405;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.botao-tela1:hover{
+    background: #3a641b;
+}
+.botao-tela1:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none;    
+}
+
+.tela1{
+    height: 1.4em;
+    margin-right: inherit;
+    vertical-align: middle;
+    padding-bottom: 0.3em;
+        
+}
+
+.nomeBotao{
+    
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.menus{
+    width: 50%;
+}
+
+
+
+.figura-atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.figura-titulo{
+    width: 5%;
+    height: 5%; 
+    float: left;
+    margin-bottom: 10px;
+}
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.cabecalho{
+    position: relative;
+}
+a .botao{
+    display: block;
+}
+
+.cadastroFormulario{
+    /* top: 20%; */
+    /* left: 20%; */
+    padding: 0px 15px;
+    max-width: 500px;
+    margin:  0px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    .botao-tela1{
+        width: 82%;
+    }
+}
+.esquerda{
+    text-align: left;
+}
+
+/* .box input[type="login"]:focus,.box input[type="password"]:focus{
+background: #000;
+color: #FFF;
+}
+
+.campo input[type="login"],.campo input[type="password"]{
+    margin: 0px;
+	padding-bottom: 1em;
+	border: 2px solid #b30000;
+} */
+
+.telainicial{
+    margin-top: 10px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #FFF;
+    font-size: 4em;
+}
+
+
+
+#appearance-select{
+   -webkit-appearance: none; 
+   -moz-appearance: none; 
+   appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #fff;
+    background-position: 100px center; 
+   width: 30%; 
+   height:35px; 
+    border: 1px solid #b30000;
+}
+
+#appearance-select-sala{
+   -webkit-appearance: none; 
+   -moz-appearance: none; 
+   appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #fff;
+    background-position: 110px center; 
+   width: 30%; 
+   height:35px; 
+    border: 1px solid #b30000;
+}
+
+
+#appearance-select-devolucao{
+   -webkit-appearance: none; 
+   -moz-appearance: none; 
+   appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #fff;
+    background-position: 250px center; 
+   width: 40%; 
+   height:35px; 
+    border: 1px solid #b30000;
+}
+
+
+.campo_consulta{
+	margin: none;
+	padding-bottom: 1px;
+	width: 69%;
+	border: 1px solid #b30000;
+	padding: .7em;
+}
+
+.botao_dev_ret{
+    background: #72C736;
+    font-family: arial;
+    font-size: 18px;
+    border: none;
+}

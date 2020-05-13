@@ -1,0 +1,18 @@
+Data Show - https://fontawesome.com/icons/video?style=solid
+Sala de Aula - https://fontawesome.com/icons/chalkboard-teacher?style=solid
+Fita VHS - https://fontawesome.com/icons/film?style=solid
+DVD - https://fontawesome.com/icons/compact-disc?style=solid
+Radio - https://fontawesome.com/icons/music?style=solid
+Extensão - https://fontawesome.com/icons/plug?style=solid
+Equipamento de audio - https://fontawesome.com/icons/headphones?style=solid
+Equipamento de video - https://fontawesome.com/icons/play-circle?style=solid
+
+ID CARD - https://fontawesome.com/icons/id-card?style=solid
+
+
+                        
+            <a href="datashow.html" class="botao botao-tela1 nomeBotao"><img class="tela1" src="bootstrap/img/radio.svg">Radio</a>            
+            <a href="datashow.html" class="botao botao-tela1 nomeBotao"><img class="tela1" src="bootstrap/img/equipVideo.svg">Equipamento de Vídeo</a>
+
+
+

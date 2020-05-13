@@ -1,0 +1,154 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: #90ee90;
+}
+
+.notification_is_danger{
+background: #c91205;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #c91205;
+/* padding: 14px 10px; */
+width: 220px;
+height: 60px;
+color: white;
+border-radius: 24px;
+}
+
+.box{
+width: 300px;
+padding: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: #fff;
+text-align: center;
+border-radius: 12px;
+}
+
+.box h1{
+color:black;
+text-transformation: uppercase;
+font-weight: 500;
+}
+
+.box h3{
+color:black;
+text-transformation: uppercase;
+font-weight: 100;
+}
+
+
+.box input[type="text"],.box input[type="password"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding: 14px 10px;
+width: 200px;
+outline:none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 280px;
+border-color: #2ecc71;
+}
+.box input[type="submit"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline:none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+background: #2ecc71;
+}
+
+footer{
+color: black;
+font-size: 10px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a.login{
+  display: inline-block;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  teXt-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline:none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  width: 50px;
+}
+
+a.login:hover{
+text-shadow: 1px .5px 1px;
+background: #2ecc71;
+
+}
+
+a:hover{
+text-decoration: underline;
+text-shadow: 1px .5px 1px;
+
+}
+
+.box button [type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box button[type="submit"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline:none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+}
+
+.box button[type="submit"]:hover{
+background: #2ecc71;
+}

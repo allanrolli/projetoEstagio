@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<?php session_start(); ?>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema-Projeto</title>
+    <link rel="icon" type="imagem/x-icon" href="bootstrap/img/estudo.png">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/index.css">
+</head>
+
+<body>
+    <section class="cadastroFormulario">
+        <h2 class="telainicial">Sistema de Login</h2>
+                    <?php
+                    if(isset($_SESSION['nao_autenticado'])):
+                    ?>
+                    <div class="notification is-danger">
+                      <p>ERRO: Usuário ou senha inválidos.</p>
+                    </div>
+                    <?php
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
+                    ?>
+                    <div class="box">
+                        <form action="login.php" method="POST">
+                            <div class="field">
+                                <div class="control">
+                                    <input name="usuario" type="login" class="campo box" placeholder="Seu usuário">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input name="senha" class="campo box" type="password" placeholder="Sua senha">
+                                </div>
+                            </div>
+                            <button type="submit" class="botao botao-tela1">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@AllanRolli 
+0
+0 0 Mario-Celso/Estudo_Desenvolvimento_WEB
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Estudo_Desenvolvimento_WEB/Animated-Login-form-master/style.css
+@Mario-Celso Mario-Celso Tela de login
+89862e5 12 minutes ago
+62 lines (56 sloc)  1.02 KB
+main{
+    background: #191919;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: #191919;
+
+}
+
+.box{
+width: 100%;
+padding: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: #191919;
+text-align: center;
+}
+
+.box h1{
+color:white;
+text-transformation: uppercase;
+font-weight: 500;
+}
+
+.box input[type="text"],.box input[type="password"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+test-aling: center;
+border: 2px solid #3498db;
+padding: 14px 10px;
+width: 200px;
+outline:none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 280px;
+border-color: #2ecc71;
+}
+.box input[type="submit"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+test-aling: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline:none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+background: #2ecc71;
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

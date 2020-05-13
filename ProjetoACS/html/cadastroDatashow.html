@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro do Datashow</title>
+    <link rel="icon" type="imagem/x-icon" href="bootstrap/img/estudo.png">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/index.css">
+
+
+	</head>
+	<body>
+    <main>
+
+        <section class="container-grid cadastroFormulario">
+					<!--area de consulta  -->
+		        <section class="container-grid cadastroFormulario">
+							<form  method="POST" action="pesquisar.php">
+								<label for:"data" >Consulta:</label>
+								<input class="campo" id="dataSala" type="text" name="pesquisar" placeholder="consulta">
+								<input id="consultaSalaDeAula" class="botao botao-tela1" type="submit" value="CONSULTAR">
+							 </form>
+		        </section>
+					<!--___________________________________________________________________________________________________________________ -->
+
+        </section>
+				<!-- ____________________________________reserva____________________________________________________________________________ -->
+        <section class="container-grid cadastroFormulario">
+        <form action="script.php" method="post" id="termoDeLocacaoDeProjetores">
+        <div id="#" class="#">
+            <label for="dataUso" >Data do uso:</label>
+            <input id="dataDataShow" type="date" placeholder="digite a data a ser usado equipamento" class="campo" name=data>
+            <label for="nome" >Nome:</label>
+            <input id="nomeDataShow" type="name" placeholder="digite o nome da pessoa que reservou" class="campo" name=nome>
+            <label for="nome" >Setor:</label>
+            <input id="setorDataShow" type="text" placeholder="digite o setor da pessoa que reservou" class="campo" name=setor>
+            <label for="nome" >Ramal:</label>
+            <input id="ramalDataShow" type="text" placeholder="digite o ramal da pessoa que reservou" class="campo" name=ramal>
+
+        </div>
+            <!-- <button id="cadastroDatashow" class="botao botao-tela1" type="submit">Cadastrar</button> -->
+						<input id="cadastroSalaDeAula" class="botao botao-tela1" type=submit value="Reservar">
+       </form>
+			 	<!--___________________________________________________________________________________________________________________ -->
+            <a href="cadastroPerifericos.html" class="botao botao-tela1 nomeBotao"><img class="tela1" src="bootstrap/img/extensao.svg">Extensão e periféricos</a>
+            <a href="javascript:window.history.back()" class="botao botao-tela1 nomeBotao"><img class="tela1" src="bootstrap/img/voltar.svg">Voltar</a>
+            <a href="menu.html" class="botao botao-tela1 nomeBotao"><img class="tela1" src="bootstrap/img/home.svg">Pagina Inicial</a>
+        </section>
+
+		</main>
+        <footer class="rodape-pagina">
+            &copy; Allan e Mario 2019
+        </footer>
+        <script src="bootstrap/js/dataShow.js"></script>
+    </body>
+</html>
